@@ -1,0 +1,29 @@
+We need LIBCURL and LIBCRYTOPP to compile this program, the basic logic of the api is to use curl to do request and return JSON as a string.  
+
+Way to get libCURL and LIBCRYTOPP in IOS
+
+1. Press Command+Space and type Terminal and press enter/return key.
+
+2. Run in Terminal app:
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+
+3.and press enter/return key. Wait for the command to finish.
+Run:
+brew install curl
+
+
+
+1.Press Command+Space and type Terminal and press enter/return key.
+2. Run in Terminal app:
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+3. and press enter/return key. Wait for the command to finish.
+Run:
+brew install cryptopp
+
+
+In my machine, the library is install at the default place:
+/usr/local/Cellar/curl/
+
+Linux should have the similar method to get the library using sudo apt-get install…
+
